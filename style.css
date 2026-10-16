@@ -112,7 +112,7 @@ select.fld.is-set{color:#000}
 .mc{position:relative;overflow:hidden;width:100%}
 .mc img{position:absolute}
 @media (max-width:900px){
-  .fit{display:none}
+  .mob ~ .fit{display:none}
   .mob{display:block;overflow:hidden;background:#fff;min-height:calc(100vh - 68px);position:relative}
   .mob h1,.mob h2{font-weight:400}
   :where(.mob) p{margin:0}
