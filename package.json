@@ -1,0 +1,10 @@
+{
+  "name": "zozzo-landingpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page ZOZZO (HTML/CSS/JS statique)",
+  "scripts": {
+    "dev": "bunx serve . -l 3000",
+    "assets": "sh download-assets.sh"
+  }
+}
